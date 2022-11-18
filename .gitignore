@@ -1,0 +1,8 @@
+/node_modules
+/.idea
+/coverage
+._*
+.DS_Store
+.env*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "ESNext",
+    "lib": ["es5", "ESNext"],
+    "outDir": "./dist",
+    "declarationDir": "./dist/types",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "allowJs": false,
+    "noEmit": false,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleResolution": "Node"
+  },
+  "include": ["src/**/*", "tests/index.spec.ts", "tests/index.spec.ts"],
+  "exclude": ["node_modules", "tests"]
+}
